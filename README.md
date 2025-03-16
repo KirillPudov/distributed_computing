@@ -1,1 +1,9 @@
-# distributed_computing
+# Distributed Computing
+### Lab 1
+Для начала развертывания необходимо заполнить inventory файл.
+После чего выполнить команду 
+
+`ansible-playbook -i inventory.ini playbook_lab1.yaml`
+
+После развертывания на машине будет установлен Wordpress, работающий через ssl.
+Для корректного отображения сайта необходимо будет законичить установку через браузер.
